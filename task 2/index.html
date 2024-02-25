@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 2</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset style="width:40%;">
+            <h4>Salutation</h4>
+            <legend>Personal Details:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Male</label>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">Female</label><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="date">Date of birth:</label>
+            <input type="date" name="" id=""><br><br>
+
+            <label for="w3review">Addres:</label><br>
+            <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit">
+        </fieldset>
+    </form>
+    <hr>
+    <h1>HTML Form</h1>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Enter first name"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" placeholder="Enter last name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter email addres"><br><br>
+    <label for="quantity">Phone:</label>
+    <input type="number" placeholder="Enter your number"><br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="countrylist" form="countryform">
+        <option value="country">Choose a Country</option>
+        <option value="azerbaycan">Azerbaycan</option>
+        <option value="turkiye">Turkiye</option>
+        <option value="rusiys">Rusiya</option>
+        <option value="pakistan">Pakistan</option>
+    </select><br><br>
+    <label for="city">City:</label>
+    <select id="city" name="citylist" form="cityform">
+        <option value="city">Choose a city</option>
+        <option value="baki">Baki</option>
+        <option value="istanbul">Istanbul</option>
+        <option value="moskva">Moskva</option>
+        <option value="islamabad">Islamabad</option>
+    </select><br><br>
+
+    <label for="fav_language">Language(s):</label><br><br>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1">En</label>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2">De</label>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3">Fr</label>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3">Ru</label><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <hr>
+
+    <h1>Login</h1>
+    <label for="fname">Name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="password">Password:</label>
+    <input type="number"><br><br>
+    <label for="number">Number:</label>
+    <input type="number"><br><br>
+    <label>Gender:</label>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Male</label>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">Female</label><br><br>
+    <label for="date">Date of birth:</label>
+    <select id="city" name="citylist" form="cityform">
+        <option value="city">Date</option>
+        <option value="city">Yanvar</option>
+        <option value="baki">Fevral</option>
+        <option value="istanbul">Mart</option>
+    </select>
+    <select id="city" name="citylist" form="cityform">
+        <option value="city">Month</option>
+        <option value="city">Yanvar</option>
+        <option value="baki">Fevral</option>
+        <option value="istanbul">Mart</option>
+    </select>
+    <select id="city" name="citylist" form="cityform">
+        <option value="city">Year</option>
+        <option value="city">2022</option>
+        <option value="baki">2023</option>
+        <option value="istanbul">2024</option>
+    </select><br><br>
+    <input type="submit" value="Send">
+    <hr>
+
+    <ul>
+        <h1>My feedback form</h1>
+
+        <li><label for="fname">Name: <input type="text" id="fname" name="fname"></label></li>
+        <li><label for="email">Email: <input type="email" id="fname" name="fname"></label></li>
+        <li><label for="password">Password: <input type="number"></label></li>
+        <li><label for="fav_language">Please check all the emotions that apply to you:</label></li>
+        <ul type="disc">
+            <li><label for="vehicle1">Angry</label><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            </li>
+            <li><label for="vehicle2">Sad</label> <input type="checkbox" id="vehicle2" name="vehicle2" value="Car"></li>
+            <li><label for="vehicle3">Happy</label> <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            </li>
+            <li><label for="vehicle3">Ambivalent</label> <input type="checkbox" id="vehicle3" name="vehicle3"
+                    value="Boat"></li>
+        </ul>
+        <li><label>How satisfied were you with our service?</label></li>
+        <ul type="disc">
+            <li><label for="html"> Very satisfied: <input type="radio" id="html" name="fav_language"
+                        value="HTML"></label>
+            </li>
+            <li><label for="css">Satisfied: <input type="radio" id="css" name="fav_language" value="CSS"></label></li>
+            <li><label for="css">Didn't care:</label><input type="radio" id="css" name="fav_language" value="CSS"></li>
+            <li><label for="css">Dissatisfied:</label><input type="radio" id="css" name="fav_language" value="CSS"></li>
+            <li><label for="css">Very dissatisfied:</label><input type="radio" id="css" name="fav_language" value="CSS">
+            </li>
+        </ul>
+        <li><label for="w3review">Further comments:
+                <textarea></textarea></label></li>
+        <li><label for="img">Bio photo: <input type="file" id="img" name="img" accept="image/*"></label></li>
+        <li><label for="">Location visited: <select name="cars" id="cars">
+                    <option value="volvo">Select location</option>
+                    <option value="saab">Sumqayit</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select></label></li>
+        <li><input type="submit" value="Submit"></li>
+    </ul>
+    <hr>
+    <fieldset style="width:40%;">
+        <legend>Login</legend>
+        <label for="fname">Username*</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Password*</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+    </fieldset>
+
+    <fieldset style="width: 40%;">
+        <legend>Gender*</legend>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">Male</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">Female</label><br><br>
+    </fieldset>
+
+    <fieldset style="width:40%;">
+        <legend>Programming Skill</legend>
+        <label for="fav_language">Language(s):</label><br><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">Java</label>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">C++</label>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">C#</label>
+    </fieldset>
+
+    <fieldset style="width: 40%;">
+        <legend>Country</legend>
+        <label for="">Choose a country: <select name="cars" id="cars">
+                <option value="volvo">Azerbaijan</option>
+                <option value="saab">Turkiye</option>
+                <option value="mercedes">Rusiya</option>
+                <option value="audi">Pakistan</option>
+            </select></label>
+    </fieldset><br>
+    <textarea name="" id="" rows="10" style="width: 40%;" placeholder="Enter your comment here"></textarea><br>
+    <input type="submit" name="" id="" value="Send">
+    <input type="reset" name="" id="">
+    <hr>
+
+    <select name="" id="">
+        <optgroup>
+            <option value="" hidden selected>Choose the product</option>
+        </optgroup>
+        <optgroup label="Fruit">
+            <option value="">Apple</option>
+            <option value="">orange</option>
+            <option value="">Pear</option>
+            <option value="">Grape</option>
+        </optgroup>
+        <optgroup label="Vagetables">
+            <option value="">Potato</option>
+            <option value="">Tomato</option>
+            <option value="">Carrot</option>
+            <option value="">Onion</option>
+        </optgroup>
+    </select>
+    <hr>
+    <table border="1" width="40%">
+        <tr>
+            <th>Day/Period</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>a</td>
+            <td>b</td>
+            <td>s</td>
+            <td rowspan="6">s</td>
+            <td colspan="3">r</td>
+            <td>s</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="3">a</td>
+            <td>b</td>
+            <td>s</td>
+            <td>s</td>
+            <td>s</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>a</td>
+            <td>b</td>
+            <td>s</td>
+            <td>s</td>
+            <td colspan="3">r</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>a</td>
+            <td>b</td>
+            <td>s</td>
+            <td colspan="3">s</td>
+            <td>r</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td colspan="3">a</td>
+            <td>b</td>
+            <td>s</td>
+            <td>s</td>
+            <td>r</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>a</td>
+            <td>b</td>
+            <td>s</td>
+            <td colspan="3">s</td>
+            <td>r</td>
+        </tr>
+    </table>
+    <hr>
+
+
+</body>
+
+</html>
