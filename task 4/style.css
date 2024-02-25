@@ -1,0 +1,80 @@
+.container div {
+    background-color: rgb(88, 113, 156);
+    margin: 15px;
+    border: 0.5px solid;
+    width: 75%;
+}
+
+.lorem2 {
+    text-align: center;
+}
+
+.lorem3 {
+    text-align: right;
+}
+
+.lorem4 {
+    text-align: justify;
+}
+
+.lorem5 {
+    text-align: justify;
+    text-align-last: center;
+}
+
+.bordercontainer div {
+    width: 75%;
+    background-color: rgb(219, 216, 216);
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    margin: 0 0 15px 0;
+}
+.border1 {
+    font-weight: bold;
+}
+.border2 {
+    border: 3px solid blue;
+    font-style: italic;
+}
+
+.border3 {
+    border: 5px dotted;
+    text-decoration: line-through;
+}
+
+.border4 {
+    border: 5px dashed gray;
+    text-decoration: overline;
+}
+
+.border5 {
+    border: 5px double gray;
+    text-decoration: underline;
+}
+
+.border6 {
+    border-bottom: 4px solid rgb(144, 4, 4);
+    border-left: 4px solid blue;
+    border-right: 4px solid yellow;
+    border-top: 4px solid purple;
+    text-transform: uppercase;
+}
+
+.border7 {
+    border-right: 4px dotted purple;
+    border-bottom: 4px double orange;
+    border-left: 4px dashed red;
+}
+.div p{
+    background-color: gray;
+    width: 10%;
+    height: 50px;
+    margin: 0;
+    border-bottom: 3px solid black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
