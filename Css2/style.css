@@ -1,0 +1,593 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #2c3e50;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 2;
+    z-index: 1;
+}
+
+.one {
+    padding-left: 100px;
+    font-size: 25px;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-right: 100px;
+    font-size: 25px;
+}
+
+/* #portfolio .two :first-child:hover{
+ background-color: #1abc9c;
+} */
+
+.header a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.two a:hover {
+    color: #15967d;
+}
+
+.main {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1abc9c;
+    gap: 15px;
+}
+
+.main img {
+    width: 300px;
+    height: 250px;
+}
+
+.staricon i {
+    font-size: 40px;
+    color: white;
+}
+
+
+.innerdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.innerdiv h1 {
+    font-size: 4rem;
+}
+
+.innerdiv p {
+    font-size: 25px;
+}
+
+.iconclass {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.sol {
+    width: 100px;
+    height: 3px;
+    background-color: white;
+}
+
+.sag {
+    width: 100px;
+    height: 3px;
+    background-color: white;
+
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    gap: 40px;
+}
+
+.main2 h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+    font-size: 50px;
+    color: #2c3e50;
+
+}
+
+.divvcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.fonclass1 {
+    width: 400px;
+    height: 290px;
+    position: relative;
+
+}
+
+.fonclass1 img {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 290px;
+    border-radius: 10px;
+
+}
+
+.fonclass2 {
+    width: 400px;
+    height: 290px;
+    position: relative;
+
+}
+
+.fonclass2 img {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 290px;
+    border-radius: 10px;
+
+}
+
+.fonclass3 {
+    width: 400px;
+    height: 290px;
+    position: relative;
+
+}
+
+.fonclass3 img {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 290px;
+    border-radius: 10px;
+
+}
+
+.fonclass4 {
+    width: 400px;
+    height: 290px;
+    position: relative;
+}
+
+.fonclass4 img {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 290px;
+    border-radius: 10px;
+
+}
+
+.fonclass5 {
+    width: 400px;
+    height: 290px;
+    position: relative;
+
+}
+
+.fonclass5 img {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 290px;
+    border-radius: 10px;
+
+}
+
+.fonclass6 {
+    width: 400px;
+    height: 290px;
+    position: relative;
+
+}
+
+.fonclass6 img {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+
+.fon1 {
+    width: 400px;
+    height: 290px;
+    background-color: rgba(26, 188, 156, 0.9);
+    border-radius: 10px;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+.fon2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.9);
+    border-radius: 10px;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+.fon3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.9);
+    border-radius: 10px;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+.fon4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.9);
+    border-radius: 10px;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+.fon5 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.9);
+    border-radius: 10px;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+.fon6 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.9);
+    border-radius: 10px;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+}
+.divvcontainer i {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 290px;
+    color: white;
+    font-size: 70px;
+}
+.fon1:hover{
+    opacity: 1;
+}
+.fon2:hover{
+    opacity: 1;
+}
+.fon3:hover{
+    opacity: 1;
+}
+.fon4:hover{
+    opacity: 1;
+}
+.fon5:hover{
+    opacity: 1;
+}
+.fon6:hover{
+    opacity: 1;
+}
+
+.staricon2 i {
+    font-size: 40px;
+    color: #2c3e50;
+}
+
+.iconclass2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.sol2 {
+    width: 100px;
+    height: 5px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+}
+
+.sag2 {
+    width: 100px;
+    height: 5px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+
+}
+
+.sectionclass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #1abc9c;
+    color: white;
+    gap: 20px;
+
+}
+
+.sectionclass h1 {
+    font-size: 50px;
+}
+
+.pcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 58%;
+    height: 180;
+    gap: 20px;
+    font-size: 23px;
+}
+
+.textt {
+    font-size: 1.25rem;
+    font-weight: 300;
+
+}
+
+.iconclass3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.sag3 {
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sol3 {
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.abutton {
+    padding-top: 40px;
+
+}
+
+.abutton a {
+    border: 2px solid white;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+
+}
+
+.abutton a:hover {
+    color: black;
+    background-color: white;
+
+}
+
+/* ------------------------ */
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+}
+
+.sectionclass2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 20px;
+
+}
+
+.sectionclass2 h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+    color: #2c3e50;
+
+}
+
+.iconclass4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.staricon4 i {
+    font-size: 40px;
+    color: #2c3e50;
+}
+
+.sag4 {
+    width: 100px;
+    height: 5px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+}
+
+.sol4 {
+    width: 100px;
+    height: 5px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+}
+
+.formcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formcontainer form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+}
+
+.formcontainer input,
+textarea {
+    width: 700px;
+    height: 120px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+}
+
+.formcontainer button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 25px 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #1abc9c;
+    width: 120px;
+}
+
+textarea {
+    height: 200px;
+    line-height: 130px;
+}
+
+/* ----------------------------- */
+.footerclass {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    /* gap: 30px; */
+    width: 100%;
+    height: 250px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+.item3 a {
+    color: #1abc9c;
+}
+
+.itemcontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    padding-left: 110px;
+
+}
+
+.itemcontainer h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.itemcontainer>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.itemcontainer p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.iconcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    gap: 10px;
+}
+
+.iconcontainer div:hover {
+    color: black;
+    background-color: white;
+}
+
+.iconcontainer div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+}
+
+/* ------------------------------ */
+.lastfooter {
+    width: 100%;
+    height: 80px;
+    /* font-size: 25px; */
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
