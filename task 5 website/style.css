@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.allcontainer .allicons{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-end;
+    height: 95vh;
+    width: 100vw;
+    
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424649;
+    opacity: 0.5;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.icon:hover {
+    opacity: 1;
+}
+
+.img {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    width: 100%;
+    height: 700px;
+}
+
+.img div {
+    /* position: relative; */
+    text-align: center;
+    padding-top: 250px;
+}
+
+.hh h1 {
+    font-size: 95px;
+
+}
+
+.hh h3 {
+    font-size: 29px;
+    padding-bottom: 40px;
+}
+
+.hh button {
+    width: 180px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1D809F;
+    color: aliceblue;
+}
+
+.hh button:hover {
+    background-color: #17667f;
+}
+
+.iki {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 20px;
+}
+
+.iki button {
+    width: 180px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    background-color: #212529;
+    color: aliceblue;
+}
+
+.iki button:hover {
+    background-color: #424649;
+}
+
+.iki p {
+    padding: 20px 0 20px 0;
+}
+
+.iki p a {
+    color: #1D809F;
+}
+
+.uc {
+    background-color: #1D809F;
+    width: 100%;
+    height: 600px;
+    color: white;
+    text-align: center;
+    /* margin: 0 auto; */
+    /* padding-bottom: 0; */
+}
+
+.uc .bir {
+    padding-top: 150px;
+}
+
+.uc .bir h3 {
+    color: rgb(243, 195, 4);
+}
+
+.uc .bir h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.uc .ikinci>div {
+    display: inline-block;
+    padding: 35px;
+}
+
+.uc .ikinci h4 {
+    font-size: 30px;
+
+}
+
+.uc .ikinci p {
+    font-size: 20px;
+
+}
+
+.iconbck {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 15px;
+    line-height: 130px;
+}
+
+.iconbck i {
+    font-size: 40px;
+    color: #1D809F;
+}
+
+.photo {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 280px;
+}
+
+.photo button {
+    width: 180px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1D809F;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.photo button:hover {
+    background-color: #17667f;
+}
+
+/* ---------------------------------------------------- */
+.bes {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bes .text {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 60px;
+}
+
+.text h3 {
+    color: #ecb807;
+}
+
+.itemcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    clip-path: inset(0);
+    transition: 0.5s;
+}
+
+.itemcontainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.fon {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    color: white;
+    padding-top: 250px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.item:hover {
+    clip-path: inset(2rem);
+}
+
+.item:hover .fon {
+    background-color: rgba(29, 128, 159, 0.9);
+    opacity: 1;
+}
+
+/* ------------------------------------ */
+
+.alti {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #17667f;
+    gap: 30px;
+
+}
+
+.alti p {
+    color: white;
+    font-size: 35px;
+
+}
+
+.btncontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.btncontainer button {
+    border: none;
+    font-size: 17px;
+    padding: 25px 35px;
+    border-radius: 6px;
+}
+
+.btnblack {
+    color: white;
+    background-color: black;
+}
+
+.btnwhite:hover {
+    background-color: #babbbc;
+}
+
+.btnblack:hover {
+    background-color: #424649;
+}
+
+.yeddi iframe {
+    width: 100%;
+    height: 400px;
+}
+
+.sekkiz {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sekkiz p {
+    color: #424649;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons div {
+    background-color: #1D809F;
+    width: 65px;
+    height: 65px;
+    color: white;
+    font-size: 26px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons div:hover {
+    background-color: #17667f;
+}
