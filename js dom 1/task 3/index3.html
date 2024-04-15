@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <input id="one" type="text" placeholder="width">
+        <input id="two" type="text" placeholder="height">
+        <input id="three" type="text" placeholder="border width">
+    </div>
+    <div>
+        <select id="selectone">
+            <optgroup>
+                <option hidden selected>Border style</option>
+            </optgroup>
+            <option value="solid">solid</option>
+            <option value="double">double</option>
+            <option value="dashed">dashed</option>
+        </select>
+        <select id="selecttwo">
+            <optgroup>
+                <option hidden selected>Border color</option>
+            </optgroup>
+            <option value="black">black</option>
+            <option value="green">green</option>
+            <option value="red">red</option>
+        </select>
+        <select id="selectthree">
+            <optgroup>
+                <option hidden selected>Color</option>
+            </optgroup>
+            <option value="black">black</option>
+            <option value="green">green</option>
+            <option value="red">red</option>
+        </select>
+        <select id="selectfour">
+            <optgroup>
+                <option hidden selected>Background color</option>
+            </optgroup>
+            <option value="black">black</option>
+            <option value="green">green</option>
+            <option value="red">red</option>
+        </select>
+        <button onclick="btn()">Ok</button>
+        <div id="divborder" style="width: 200px; height: 200px; border: 3px dashed black;"></div>
+    </div>
+
+
+    <script src="./app3.js"></script>
+</body>
+
+</html>
